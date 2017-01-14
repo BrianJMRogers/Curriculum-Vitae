@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JAN 2017 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JAN 2017 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -588,7 +588,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  12216 strings out of 493089
  178674 string characters out of 6134842
- 394656 words of memory out of 5000000
+ 394659 words of memory out of 5000000
  15520 multiletter control sequences out of 15000+600000
  40052 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -600,7 +600,7 @@ exlive/2015/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/201
 st/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/lm/lmsso12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/marvosym/marvosym.pfb>
-Output written on rogers_CV.pdf (1 page, 116588 bytes).
+Output written on rogers_CV.pdf (1 page, 116813 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
