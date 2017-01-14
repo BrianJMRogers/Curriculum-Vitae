@@ -1,0 +1,261 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{verbatim}
+%\nopagenumbers 
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage{array}
+\newcolumntype{?}{!{\vrule width 2pt}}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Brian} % Your first name
+\familyname{Rogers} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{PO BOX 2443}{Valley Center, CA 92082}
+\mobile{(760)-207-6247}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{BrianJMRogers@gmail.com}
+\homepage{BrianJMRogers.github.io}{BrianJMRogers.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/BriGuy} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{comment}
+\hspace{2 mm}
+\textit{2018}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{B.S. in Computer Science}, Minor in Economics, Allegheny College - Cummulative GPA: 3.75
+\end{comment}
+
+\makecvtitle % Print the CV title
+\vspace{-13 mm}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\hspace{11 mm}
+\textit{2018}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{B.S. in Computer Science}, Minor in Economics, Allegheny College - Cummulative 
+ 
+ \hspace{31.5 mm}GPA: 3.75
+ 
+ \vspace{1 mm}
+ \hspace{2 mm}
+\textit{2014-2016}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{Distinguished Alden Scholar}: Must achieve a GPA for the academic year of at least 
+ 
+ \hspace{31.5 mm}3.80/4.00
+
+%----------------------------------------------------------------------------------------
+%	Published Works and PROJECTS
+%----------------------------------------------------------------------------------------
+\vspace{5 mm}
+\section{Published Works and Projects}
+
+% - - - - - - - - - - Fratty Bird - - - - - - - - - - - - 
+\hspace{11 mm}
+\textit{2016}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{Fratty Bird - The Game}: Available on the App Store %\hspace{40 mm} (\textit {written in} \textbf{Swift})
+ \textit{- written in} \textbf{Swift}
+ 
+ \vspace{-1 mm}
+ \begin{itemize}
+ \addtolength{\itemindent}{31.7 mm}
+ \item{Single-handedly developed an original concept and brought it to the App Store}
+ \item{Self taught Xcode and Swift with no prior knowledge}
+ \item{Utilized \textit{SpriteKit}, \textit{CloudKit}, \textit{StoreKit}, \textit{CoreMotion}, and \textit{UIKit}}
+ \end{itemize}
+
+% - - - - - - - - - - Distributed Heuristic - - - - - - - - - - - 
+\hspace{11 mm}
+\textit{2016}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{Distributed Heuristic}: Available on GitHub
+ %\hspace{60 mm} (\textit {written in} \textbf{Java})
+ \textit{- written in} \textbf{Java}
+ 
+ \vspace{-1 mm}
+ \begin{itemize}
+ \addtolength{\itemindent}{31.7 mm}
+ \item{Worked in a four person team to apply a hill-climbing algorithm to the knapsack  
+ 
+ \hspace{30.5 mm} problem }
+ 
+ 
+ \item{Responsible for writing files to allow for the distribution of the heuristic }
+ 
+ 
+ \item{Made use of sockets to transfer data on the LAN}
+ \end{itemize}
+ 
+ 
+ % - - - - - - - - - - 3D Snowy Neighborhood - - - - - - - - - - - 
+ \hspace{11 mm}
+\textit{2015}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{3D Snowy Neighborhood}: Available on GitHub
+ %\hspace{40 mm} (\textit {written in} \textbf{Processing})
+ \textit{- written in} \textbf{Processing}
+ 
+ \vspace{-1 mm}
+ \begin{itemize}
+ \addtolength{\itemindent}{31.7 mm}
+ \item{Created a walkable 3D snow-covered neighborhood}
+ \item{Worked with moving objects in 3D environments }
+ \item{Worked with various lighting techniques}
+ \end{itemize}
+%----------------------------------------------------------------------------------------
+%	PERSONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{5 mm}
+\section{Personal Experience}
+
+% - - - - - - - - - - - - - - - - Lacrosse  - - - - - - - - - - - - - - - - 
+\textit{2015 - present}
+\hspace{-1.7 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{President of Allegheny College Men's Lacrosse Club} 
+ \vspace{0 mm}
+ \begin{itemize}
+ \addtolength{\itemindent}{31.7 mm}
+ \item{Communicate with other club lacrosse presidents, referees, and school faculty to 
+ 
+ \hspace{32 mm}schedule and coordinate games}
+ 
+ 
+ \item{Work with the club's executive board to ensure the success of the club }
+ \item{Work as liaison between club and all other parties (faculty, student government, etc.)}
+ \end{itemize}
+ 
+ %-------------------------Study Abroad----------------------------
+   \hspace{11 mm}
+ \textit{2016}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{Study Abroad: Amsterdam, the Netherlands} 
+ \vspace{0 mm}
+ \begin{itemize}
+ \addtolength{\itemindent}{31.7 mm}
+ \item{Applied to and participated in semester-long study abroad program independent of 
+ 
+  \hspace{31.7 mm}Allegheny College}
+  
+  
+ \item{Traveled both independently and with friends to nine different countries}
+ \item{Exposed myself to many new cultures, world views, and schools of thought}
+ \end{itemize}
+ 
+ %-------------------------Radio Host----------------------------
+    \hspace{11 mm}
+ \textit{2016}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{Radio Host: Chill JamZ} 
+ \vspace{0 mm}
+ \begin{itemize}
+ \addtolength{\itemindent}{31.7 mm}
+ \item{Cohosted a weekly music and talkshow with two friends}
+ \item{Drafted weekly radio-show plans consisting of music and talking points}
+ \item{Responsible for actively searching for radio-worthy content}
+ \end{itemize}
+ 
+ % - - - - - - - - - - - - - - - - Pledge Ed  - - - - - - - - - - - - - - - - 
+  \hspace{11 mm}
+ \textit{2015}
+\hspace{2 mm}
+\begin{tabular}{c?}
+ \\
+\end{tabular}
+ \hspace{2 mm}
+ \textbf{New Member Educator, Delta Tau Delta Fraternity} 
+ \vspace{0 mm}
+ \begin{itemize}
+ \addtolength{\itemindent}{31.7 mm}
+ \item{Created comprehensive 8-week plan to assimilate new members into the fraternity}
+ \item{Taught Delta Tau Delta history and traditions to new members}
+ \item{Drafted and presented weekly reports concerning the week's events}
+ \end{itemize}
+ 
+
+
+
+\end{document}
